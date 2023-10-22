@@ -1,0 +1,44 @@
+{
+	"tokenStandard": "pnft",
+	"number": 10,
+	"symbol": "NB",
+	"sellerFeeBasisPoints": 500,
+	"isMutable": true,
+	"isSequential": false,
+	"ruleSet": "eBJLFYPxJmMGKuFwpDWkzxZeUrad92kZRC5BJLpzyT9",
+	"creators": [
+		{
+			"address": "4kg8oh3jdNtn7j2wcS7TrUua31AgbLzDVkBZgTAe44aF",
+			"share": 100
+		}
+	],
+	"hiddenSettings": null,
+	"uploadMethod": "bundlr",
+	"awsConfig": null,
+	"nftStorageAuthToken": null,
+	"shdwStorageAccount": null,
+	"pinataConfig": null,
+	"sdriveApiKey": null,
+	"guards": {
+		"default": {
+			"botTax": {
+				"value": 0.01,
+				"lastInstruction": true
+			}
+		},
+		"groups": [
+			{
+				"label": "OGs",
+				"guards": {
+					"startDate": {
+						"date": "2022-10-20 12:00:00 +0000"
+					},
+					"solPayment": {
+						"value": 1,
+						"destination": "4kg8oh3jdNtn7j2wcS7TrUua31AgbLzDVkBZgTAe44aF"
+					}
+				}
+			}
+		]
+	}
+}
